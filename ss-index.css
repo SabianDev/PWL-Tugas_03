@@ -1,0 +1,83 @@
+.container {
+
+/*
+  display: grid; 
+  grid-template-columns: 1fr 1.3fr 0.7fr; 
+  grid-template-rows: 0.5fr 2.2fr 0.4fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "header header header"
+    "mainpage mainpage mainpage"
+    "footer footer footer"; 
+*/
+}
+.header {
+	grid-area: header;
+  background: #1A1F23;
+  padding: 5px;
+  font-family: 'Mate SC', serif;
+}
+.mainpage {
+	grid-area: mainpage;
+  color: #000;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  opacity: 0.7;
+}
+.footer {
+	grid-area: footer;
+	background: #1A1F23;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: #000;
+}
+
+.pp {
+  position: absolute;
+  left:900px; 
+  top:230px;
+}
+
+#profile{
+  border: 1px solid #fff;
+  border-radius: 4px;
+  padding: 5px;
+  width: 200px;
+}
+#icon{
+  width: 20px;
+}
+#white{
+  color: #000;
+}
+
+#white2{
+  color: #fff;
+}
+
+#headertitle{
+  font-size: 30px;
+  color: white;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #1A1F23;
+}
+
+/*navbar link*/
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*navbar hover change*/
+.topnav a:hover {
+  background: #9da6b8;
+  color: black;
+}
